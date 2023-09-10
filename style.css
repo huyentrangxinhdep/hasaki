@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(12, 100, 71);
+}
+.sm-header {
+  display: flex;
+  padding: 5px 90px;
+  margin: 0 10px;
+}
+.bar {
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(12, 100, 71);
+
+  padding: 10px 5px;
+}
+
+.bar:hover {
+  border-color: white;
+}
+
+.logo {
+  margin: 15px 5px;
+}
+.logo img {
+  height: 42px;
+  width: 180px;
+}
+
+.search-box {
+  display: flex;
+  margin: 2px 5px;
+}
+
+.fa-magnifying-glass {
+  background-color: rgb(255, 98, 0);
+}
+
+.suggest {
+  color: white;
+  display: flex;
+}
+.suggest p {
+  margin: 0 5px;
+}
+.icon {
+  display: flex;
+  margin: 0 15px;
+}
+a {
+  color: white;
+}
+
+.ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i.fa-user,
+.fa-store,
+.fa-phone,
+.fa-cart-shopping {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  padding: 14px;
+  font-size: 24px;
+}
